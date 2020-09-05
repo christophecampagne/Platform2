@@ -19,6 +19,8 @@
 		42C44CCD250415D700679284 /* Wall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CCC250415D700679284 /* Wall.sks */; };
 		42C44CCF2504160200679284 /* box5.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CCE2504160200679284 /* box5.png */; };
 		42C44CD1250419D000679284 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD0250419D000679284 /* Rain.sks */; };
+		42C44CD325041FC900679284 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD225041FC900679284 /* Fire.sks */; };
+		42C44CD52504203F00679284 /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD42504203F00679284 /* MyActions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		42C44CCC250415D700679284 /* Wall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Wall.sks; sourceTree = "<group>"; };
 		42C44CCE2504160200679284 /* box5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box5.png; path = ../../../../../../Documents/Graph/Boxes/box5.png; sourceTree = "<group>"; };
 		42C44CD0250419D000679284 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		42C44CD225041FC900679284 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		42C44CD42504203F00679284 /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		42C44C8A250414F000679284 = {
 			isa = PBXGroup;
 			children = (
+				42C44CD42504203F00679284 /* MyActions.sks */,
 				42C44C95250414F000679284 /* Platform2 */,
 				42C44CB0250414F200679284 /* Platform2Tests */,
 				42C44CBB250414F200679284 /* Platform2UITests */,
@@ -110,6 +115,7 @@
 				42C44C96250414F000679284 /* AppDelegate.swift */,
 				42C44C9C250414F000679284 /* GameScene.swift */,
 				42C44CCA2504159E00679284 /* Level1.sks */,
+				42C44CD225041FC900679284 /* Fire.sks */,
 				42C44CD0250419D000679284 /* Rain.sks */,
 				42C44CCC250415D700679284 /* Wall.sks */,
 				42C44C9E250414F000679284 /* GameViewController.swift */,
@@ -248,7 +254,9 @@
 				42C44CA4250414F200679284 /* Assets.xcassets in Resources */,
 				42C44CD1250419D000679284 /* Rain.sks in Resources */,
 				42C44CCB2504159E00679284 /* Level1.sks in Resources */,
+				42C44CD52504203F00679284 /* MyActions.sks in Resources */,
 				42C44CCD250415D700679284 /* Wall.sks in Resources */,
+				42C44CD325041FC900679284 /* Fire.sks in Resources */,
 				42C44CA7250414F200679284 /* LaunchScreen.storyboard in Resources */,
 				42C44CCF2504160200679284 /* box5.png in Resources */,
 			);
