@@ -21,6 +21,7 @@
 		42C44CD1250419D000679284 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD0250419D000679284 /* Rain.sks */; };
 		42C44CD325041FC900679284 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD225041FC900679284 /* Fire.sks */; };
 		42C44CD52504203F00679284 /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD42504203F00679284 /* MyActions.sks */; };
+		42C44CD7250421BE00679284 /* Thrust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD6250421BE00679284 /* Thrust.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		42C44CD0250419D000679284 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
 		42C44CD225041FC900679284 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		42C44CD42504203F00679284 /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
+		42C44CD6250421BE00679284 /* Thrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Thrust.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				42C44C96250414F000679284 /* AppDelegate.swift */,
 				42C44C9C250414F000679284 /* GameScene.swift */,
 				42C44CCA2504159E00679284 /* Level1.sks */,
+				42C44CD6250421BE00679284 /* Thrust.sks */,
 				42C44CD225041FC900679284 /* Fire.sks */,
 				42C44CD0250419D000679284 /* Rain.sks */,
 				42C44CCC250415D700679284 /* Wall.sks */,
@@ -253,6 +256,7 @@
 				42C44CA2250414F000679284 /* Main.storyboard in Resources */,
 				42C44CA4250414F200679284 /* Assets.xcassets in Resources */,
 				42C44CD1250419D000679284 /* Rain.sks in Resources */,
+				42C44CD7250421BE00679284 /* Thrust.sks in Resources */,
 				42C44CCB2504159E00679284 /* Level1.sks in Resources */,
 				42C44CD52504203F00679284 /* MyActions.sks in Resources */,
 				42C44CCD250415D700679284 /* Wall.sks in Resources */,

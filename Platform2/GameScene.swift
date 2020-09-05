@@ -13,6 +13,7 @@ class GameScene: SKScene {
     var cameraNode: SKCameraNode!
     var player: SKNode!
     var movingWall: SKNode!
+    var thrustSmoke: SKEmitterNode!
     override func didMove(to view: SKView) {
         
         for child in self.children{
@@ -30,6 +31,10 @@ class GameScene: SKScene {
             }
            }
         
+         thrustSmoke = SKEmitterNode(fileNamed: "Thrust.sks")
+        thrustSmoke.targetNode = self
+        player.addChild(thrustSmoke)
+
         cameraNode = SKCameraNode()
         addChild(cameraNode)
         camera = cameraNode
@@ -44,10 +49,15 @@ class GameScene: SKScene {
         let deltaX = player.position.x - position.x
         if deltaX < 0 {
         player.physicsBody?.applyImpulse(CGVector(dx: -75, dy: 80))
-        } else {
+            thrustSmoke.emissionAngle = -30
+                    } else {
+              thrustSmoke.emissionAngle = 30
               player.physicsBody?.applyImpulse(CGVector(dx: 75, dy: 80))
+            
         }
     }
+    
+   
     
     override func update(_ currentTime: TimeInterval) {
         cameraNode.position = player.position
