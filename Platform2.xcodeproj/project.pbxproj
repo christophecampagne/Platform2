@@ -22,6 +22,8 @@
 		42C44CD325041FC900679284 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD225041FC900679284 /* Fire.sks */; };
 		42C44CD52504203F00679284 /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD42504203F00679284 /* MyActions.sks */; };
 		42C44CD7250421BE00679284 /* Thrust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD6250421BE00679284 /* Thrust.sks */; };
+		42C44CD925051E8200679284 /* Claws.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CD825051E8200679284 /* Claws.png */; };
+		42C44CDB2505428A00679284 /* Coin.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C44CDA2505428A00679284 /* Coin.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		42C44CD225041FC900679284 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		42C44CD42504203F00679284 /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
 		42C44CD6250421BE00679284 /* Thrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Thrust.sks; sourceTree = "<group>"; };
+		42C44CD825051E8200679284 /* Claws.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Claws.png; path = ../../../../../../Documents/Graph/Claws.png; sourceTree = "<group>"; };
+		42C44CDA2505428A00679284 /* Coin.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Coin.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				42C44C96250414F000679284 /* AppDelegate.swift */,
 				42C44C9C250414F000679284 /* GameScene.swift */,
 				42C44CCA2504159E00679284 /* Level1.sks */,
+				42C44CDA2505428A00679284 /* Coin.sks */,
 				42C44CD6250421BE00679284 /* Thrust.sks */,
 				42C44CD225041FC900679284 /* Fire.sks */,
 				42C44CD0250419D000679284 /* Rain.sks */,
@@ -125,6 +130,7 @@
 				42C44CA0250414F000679284 /* Main.storyboard */,
 				42C44CA3250414F200679284 /* Assets.xcassets */,
 				42C44CCE2504160200679284 /* box5.png */,
+				42C44CD825051E8200679284 /* Claws.png */,
 				42C44CA5250414F200679284 /* LaunchScreen.storyboard */,
 				42C44CA8250414F200679284 /* Info.plist */,
 			);
@@ -253,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C44CDB2505428A00679284 /* Coin.sks in Resources */,
 				42C44CA2250414F000679284 /* Main.storyboard in Resources */,
 				42C44CA4250414F200679284 /* Assets.xcassets in Resources */,
 				42C44CD1250419D000679284 /* Rain.sks in Resources */,
@@ -261,6 +268,7 @@
 				42C44CD52504203F00679284 /* MyActions.sks in Resources */,
 				42C44CCD250415D700679284 /* Wall.sks in Resources */,
 				42C44CD325041FC900679284 /* Fire.sks in Resources */,
+				42C44CD925051E8200679284 /* Claws.png in Resources */,
 				42C44CA7250414F200679284 /* LaunchScreen.storyboard in Resources */,
 				42C44CCF2504160200679284 /* box5.png in Resources */,
 			);
